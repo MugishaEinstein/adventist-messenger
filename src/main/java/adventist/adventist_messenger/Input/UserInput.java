@@ -1,9 +1,8 @@
 package adventist.adventist_messenger.Input;
 
 import java.time.LocalDate;
-import java.util.UUID;
 
-import org.springframework.web.multipart.MultipartFile;
+// import java.time.LocalDate;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,18 +10,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class UserInput {
-private UUID id;
+private String id;
 private String firstName;
 private String lastName;
 private String middleName;
 private String gender;
-private LocalDate dateOfBirth;
-private String name;
-private String email;
-private String password;
+private String dateOfBirth;
 private String phoneNumber;
-private String address;
-private MultipartFile profilePicture;
+private String email;
 private String country;
 private String region;
 private String city;
@@ -36,6 +31,6 @@ private String congregation;
 private String preferredLanguage;
 private boolean hasParticipateInAdventistCommunity;
 private boolean hasBaptized;
-private LocalDate baptismExpectedDate;
+private boolean expectTobeBaptise;
 
 }
