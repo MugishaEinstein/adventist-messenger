@@ -14,7 +14,7 @@ private String id;
 private String firstName;
 private String lastName;
 private String middleName;
-private String gender;
+private int gender;
 private String dateOfBirth;
 private String phoneNumber;
 private String email;
